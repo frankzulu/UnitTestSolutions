@@ -9,6 +9,8 @@ namespace UnitTestProject1Apr17
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.AreEqual("abc","ABC",true,"abc comparison failed");
+
         }
     }
 }
